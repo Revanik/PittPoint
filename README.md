@@ -1,3 +1,10 @@
+# Team Information
+1. Ryan Evanik, rde21@pitt.edu
+2. Sara Bergstrom, sab692@pitt.edu
+3. Tyler Pierce, typ22@pitt.edu
+4. Elena Tamba, elt160@pitt.edu
+
+
 # Website Overview
 
 Welcome to the **PittPoint** repository! This website provides users with four main functionalities with more to come, accessible through an intuitive tabbed navigation interface. Additionally, it features a sign-in page for user authentication.
