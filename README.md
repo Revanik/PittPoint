@@ -7,7 +7,7 @@
 
 # Website Overview
 
-Welcome to the **PittPoint** repository! This website provides users with four main functionalities with more to come, accessible through an intuitive tabbed navigation interface. Additionally, it features a sign-in page for user authentication.
+Welcome to the **PittPoint** repository! PittPoint is the all-in-one platform for University of Pittsburgh students, featuring personalized schedules, an AI assistant, and campus news—making student life organized and accessible.
 
 ---
 
