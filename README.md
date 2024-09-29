@@ -1,25 +1,78 @@
-This is a Next.js project bootstrapped with [`create-plasmic-app`](https://www.npmjs.com/package/create-plasmic-app).
+# Website Overview
 
-## Getting Started
+Welcome to the **PittPoint** repository! This website provides users with four main functionalities with more to come, accessible through an intuitive tabbed navigation interface. Additionally, it features a sign-in page for user authentication.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-```
+## Features
 
-Open your browser to see the result.
+### Homepage
+The **Homepage** serves as the first point of contact for visitors. It provides an overview of the website, including a welcome video that can be changed by university staff to display current events on campus, weekly news, hype videos, and more. The design is clean and user-friendly, ensuring an easy experience for all visitors.
 
-You can start editing your project in Plasmic Studio. The page auto-updates as you edit the project.
+### Schedule and Calendar
+The **Schedule and Calendar** tab allows users to view and manage their schedules. 
+- The **Calendar** displays upcoming events, appointments, or tasks. 
+- Users can create, edit, and delete their schedule items.
 
-## Learn More
+### Gemini
+In the **Gemini** tab, users can interact with an AI assistant.
+- This feature allows users to type in questions, and Gemini will generate a response based on the input.
+- The goal of this feature is to provide fast and useful answers on various topics without the need for an advisor appointment.
 
-With Plasmic, you can enable non-developers on your team to publish pages and content into your website or app.
+### Advisors and Contact Information
+The **Advisors and Contact Information** tab lists a directory of available advisors. 
+- Each entry includes the advisor's name, email, phone number, and areas of expertise.
+- Users can easily reach out to advisors through the listed contact details.
 
-To learn more about Plasmic, take a look at the following resources:
+### Sign-in Page
+The **Sign-in Page** is the first page users encounter before accessing the website’s core features.
+- It uses a secure authentication system that requires users to sign in with their Pitt username and password.
+- Once authenticated, users can access the rest of the website’s content and functionalities.
+- Genuine Pitt authentication is not implemented due to not having access to those features.
 
-- [Plasmic Website](https://www.plasmic.app/)
-- [Plasmic Documentation](https://docs.plasmic.app/learn/)
-- [Plasmic Slack Community](https://www.plasmic.app/slack)
+---
 
-You can check out [the Plasmic GitHub repository](https://github.com/plasmicapp/plasmic) - your feedback and contributions are welcome!
+## How to Set Up Locally
+
+To set up and run this website on your local machine, follow these steps:
+
+### Prerequisites:
+1. Ensure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed.
+2. Clone this repository: 
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+3. Navigate to the project directory:
+   ```bash
+   cd your-repo-name
+   ```
+5. Install the required dependencies:
+  ```bash
+   npm install
+  ```
+Running the Website Locally:
+
+7. Start the development server:
+  ```bash
+    npm start
+  ```
+6. Open your browser and go to:
+  ```bash
+    http://localhost:3000
+  ```
+
+## How It Works:
+
+### 1. Sign-in Process:
+  Users sign in through the authentication page. Once the user submits their credentials they will be granted access to the site via the homepage.
+
+### 2. Tab Navigation:
+  After signing in, users can navigate the site using the tabbed menu at the top of the screen. There is currently 5 tabs on the website however more are planned in future iterations.
+
+### 3. Schedule and Calendar Management:
+  Users can add, edit, or delete events from their schedule through an easy-to-use form. We hope to be able to incorporate Gemini into this portion of the application as well.
+
+### 4. Gemini Interaction:
+  In the Gemini tab, users enter a question, and the Google AI generates a response based on a Gemini model that was trained by us. We included commonly asked questions and responses from numerous Official University of Pittsburgh sources in our training data.
+
+### 5. Contacting Advisors:
+  Users can access the advisor directory to contact an advisor directly from the listed details. A search feature will eventually be implemented to make searching for advisors less tedious.
